@@ -1,0 +1,19 @@
+{
+  "name": "wispi-bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "khafizovar",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "rss-parser": "^3.9.0"
+  }
+}
