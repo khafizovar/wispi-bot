@@ -1,4 +1,4 @@
-module.exports = (mess) => {
+module.exports = (robot, mess, args) => {
     // TODO Добавить проверку прав пользователя
     const arggs = mess.content.split(' ').slice(1); // Все аргументы за именем команды с префиксом
     const amount = arggs.join(' '); // Количество сообщений, которые должны быть удалены
